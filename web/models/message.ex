@@ -3,12 +3,12 @@ defmodule Hello.Message do
 
   schema "messages" do
     field :content, :string
-    belongs_to :user, Hello.User
+    belongs_to :user, Hello.User, foreign_key: :user_id
 
     timestamps
   end
 
-  @required_fields ~w(content)
+  @required_fields ~w(content user_id)
   @optional_fields ~w()
 
   @doc """

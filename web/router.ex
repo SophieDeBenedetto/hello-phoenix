@@ -19,6 +19,9 @@ defmodule Hello.Router do
 
     get "/", PageController, :index
     resources "/users", UserController
+
+    get  "/signup", RegistrationController, :new
+    post "/signup", RegistrationController, :create
   end
 
   # Other scopes may use custom stacks.

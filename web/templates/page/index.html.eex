@@ -1,0 +1,29 @@
+<div id="messages" class="containter">
+</div>
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        Enter your username below:
+        <br>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon">@</span>
+
+          <input id="username" type="text" class="form-control" placeholder="charlie_kelly"/>
+        </div>
+      </div>
+      <div class="col-sm-8">
+      Enter your message below:
+      <br>
+      <br>
+        <input id="chat-input" class="form-control"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
